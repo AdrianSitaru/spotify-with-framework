@@ -1,0 +1,37 @@
+.HeaderLogo {
+  height: 45px;
+  width: 125px;
+  margin-top: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.Navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HamburgerMenu {
+  color: white;
+  transform: rotate(90deg);
+}
+
+.NavbarContent {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+
+.NavbarContent a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  .Navbar .HamburgerMenu {
+    display: none;
+  }
+}
