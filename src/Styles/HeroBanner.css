@@ -1,0 +1,35 @@
+.HeroBanner {
+  background-color: #df0c8b;
+  color: white;
+  padding-left: 40px;
+  display: flex;
+}
+
+.HeroBannerContainer {
+  max-width: 800px;
+}
+
+.HeroBanner h1 {
+  padding-top: 50px;
+  margin-top: 0px;
+  font-size: 38px;
+}
+
+.HeroBanner p {
+  font-size: 12px;
+}
+
+.heroImage {
+  height: 350px;
+  width: 350px;
+}
+
+.image {
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
