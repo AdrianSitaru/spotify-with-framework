@@ -1,0 +1,19 @@
+.PremiumSection {
+  display: block;
+  background-color: white;
+  text-align: center;
+}
+.PremiumSection h2 {
+  font-size: 42px;
+}
+
+.Container {
+  margin: 25px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PremiumSection .Container img {
+  width: 90px;
+  height: 90px;
+}
